@@ -22,6 +22,7 @@ from .discovery_engine_search_tool import DiscoveryEngineSearchTool
 from .enterprise_search_tool import enterprise_web_search_tool as enterprise_web_search
 from .example_tool import ExampleTool
 from .exit_loop_tool import exit_loop
+from .exit_sequence_tool import exit_sequence
 from .function_tool import FunctionTool
 from .get_user_choice_tool import get_user_choice_tool as get_user_choice
 from .google_maps_grounding_tool import google_maps_grounding
@@ -48,6 +49,7 @@ __all__ = [
     'VertexAiSearchTool',
     'ExampleTool',
     'exit_loop',
+    'exit_sequence',
     'FunctionTool',
     'get_user_choice',
     'load_artifacts',
